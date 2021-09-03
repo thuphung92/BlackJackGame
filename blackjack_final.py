@@ -101,7 +101,6 @@ def bet(chips):
 
 def hit(deck,hand):
     hand.take_card(deck.deal())
-    #hand.adjust_ace_value()
 
 def hit_or_stand(deck,hand):
     global is_playing
